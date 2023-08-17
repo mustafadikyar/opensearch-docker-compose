@@ -3,7 +3,7 @@
 #version: '3.7'
 #services:
 #  opensearch:
-#    image: opensearchproject/opensearch:2.6.0
+#    image: opensearchproject/opensearch:2.6.0 #latest
 #    environment:
 #      OPENSEARCH_JAVA_OPTS: "-Xms1024m -Xmx1024m" # minimum and maximum Java heap size, recommend setting both to 50% of system RAM
 #      discovery.type: single-node
@@ -15,7 +15,7 @@
 
 #  # console at http://localhost:5601/app/dev_tools#/console
 #  opensearch-dashboards:
-#    image: opensearchproject/opensearch-dashboards:2.6.0
+#    image: opensearchproject/opensearch-dashboards:2.6.0 #latest
 #    ports:
 #      - 5601:5601
 #    environment:
